@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rustyglow": "game:block/machine/statictranslocator/rustyglow"
+	},
+	"elements": [
+		{
+			"name": "TimeBit",
+			"from": [ 7.5, 0.0, 7.5 ],
+			"to": [ 8.5, 1.0, 8.5 ],
+			"rotationOrigin": [ 7.5, 0.5, 8.0 ],
+			"faces": {
+				"north": { "texture": "#rustyglow", "uv": [ 7.5, 10.0, 8.5, 11.0 ] },
+				"east": { "texture": "#rustyglow", "uv": [ 12.0, 14.0, 13.0, 15.0 ] },
+				"south": { "texture": "#rustyglow", "uv": [ 2.0, 11.0, 3.0, 12.0 ] },
+				"west": { "texture": "#rustyglow", "uv": [ 14.0, 12.5, 15.0, 13.5 ] },
+				"up": { "texture": "#rustyglow", "uv": [ 13.5, 5.5, 14.5, 6.5 ] },
+				"down": { "texture": "#rustyglow", "uv": [ 11.0, 2.5, 12.0, 3.5 ] }
+			}
+		}
+	]}

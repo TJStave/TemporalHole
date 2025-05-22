@@ -1,0 +1,59 @@
+{
+  "code": "extractorarm",
+  "creativeinventory": {
+    "general": [ "*" ]
+  },
+  "maxstacksize": 8,
+  "shape": {
+    "base": "item/extractorarm"
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -46,
+      "y": 5,
+      "z": 108
+    },
+    "origin": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 2.5
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 90,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 5.33
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.1,
+      "y": -0.6,
+      "z": -0.9
+    },
+    "rotation": {
+      "x": -3,
+      "y": -180,
+      "z": -48
+    },
+    "scale": 0.52
+  }
+}

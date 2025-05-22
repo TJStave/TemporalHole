@@ -1,0 +1,65 @@
+{
+  "code": "temporalhole",
+  "class": "TemporalHole.ItemTemporalHole",
+  "creativeinventory": {
+    "general": [ "*" ]
+  },
+  "maxstacksize": 1,
+  "shape": {
+    "base": "item/temporalhole"
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 3,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -65,
+      "y": -10,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.4,
+      "y": 1.1,
+      "z": 0
+    },
+    "scale": 3.15
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5299
+    },
+    "scale": 5
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.4,
+      "y": -0.25,
+      "z": 0.4
+    },
+    "rotation": {
+      "x": 0,
+      "y": -66,
+      "z": 18
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 2.5,
+      "z": 0.5
+    },
+    "scale": 0.95
+  }
+}

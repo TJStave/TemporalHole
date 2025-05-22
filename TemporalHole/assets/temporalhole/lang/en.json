@@ -1,0 +1,11 @@
+{
+  "item-temporalhole": "Temporal Hole",
+  "itemdesc-temporalhole": "Ctrl-click while holding items to send them through",
+  "item-timebit": "Temporal Bit",
+  "item-extractorarm": "Extractor Arm",
+  "block-temporalextractor-*": "Temporal Extractor",
+  "blockdesc-temporalextractor-*": "Harmonizes with a temporal hole to retrieve items sent through it",
+  "dialog-temporalextractor": "Temporal Extractor",
+  "blockhelp-extractor-addremoveitems": "Add/Remove Temporal Hole",
+  "holecontents": "Contains {0} stacks"
+}

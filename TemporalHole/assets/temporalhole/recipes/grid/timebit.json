@@ -1,0 +1,21 @@
+{
+  "ingredientPattern": "C,T",
+  "width": 1,
+  "height": 2,
+  "ingredients": {
+    "C": {
+      "type": "item",
+      "code": "game:chisel-*",
+      "isTool": true
+    },
+    "T": {
+      "type": "item",
+      "code": "game:gear-temporal"
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "timebit",
+    "quantity": 4
+  }
+}

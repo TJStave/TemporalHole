@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "temporalhole",
+    "name": "Temporal Hole",
+    "authors": [
+        "PurplePi"
+    ],
+    "description": "Adds the Temporal Hole: capable of holding a theoretically infinite amount of loot, but requires mechanical power for retrieval",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}

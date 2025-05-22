@@ -1,0 +1,32 @@
+{
+  "ingredientPattern": "ESM,STS,MSO",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "M": {
+      "type": "block",
+      "code": "game:metal-parts"
+    },
+    "S": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-cupronickel"
+    },
+    "T": {
+      "type": "item",
+      "code": "timebit",
+      "quantity": 4
+    },
+    "E": {
+      "type": "item",
+      "code": "game:jonasparts-cylinder01"
+    },
+    "O": {
+      "type": "item",
+      "code": "game:jonasframes-oscillator01"
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "temporalhole"
+  }
+}

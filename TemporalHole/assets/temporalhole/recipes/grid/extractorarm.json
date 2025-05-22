@@ -1,0 +1,28 @@
+{
+  "ingredientPattern": "PC,TG",
+  "width": 2,
+  "height": 2,
+  "ingredients": {
+    "P": {
+      "type": "block",
+      "code": "game:metal-parts"
+    },
+    "C": {
+      "type": "item",
+      "code": "game:ingot-cupronickel"
+    },
+    "T": {
+      "type": "item",
+      "code": "timebit",
+      "quantity": 2
+    },
+    "G": {
+      "type": "item",
+      "code": "game:jonasframes-gearbox01"
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "extractorarm"
+  }
+}

@@ -1,0 +1,72 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rustyglow": "game:block/machine/statictranslocator/rustyglow",
+		"cupronickel1": "game:block/metal/sheet-plain/cupronickel1"
+	},
+	"elements": [
+		{
+			"name": "ArmBottom",
+			"from": [ 2.0, 0.0, 7.0 ],
+			"to": [ 9.0, 0.5, 9.0 ],
+			"rotationOrigin": [ 2.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#cupronickel1", "uv": [ 8.0, 5.0, 15.0, 5.5 ] },
+				"east": { "texture": "#cupronickel1", "uv": [ 7.5, 13.0, 9.5, 13.5 ] },
+				"south": { "texture": "#cupronickel1", "uv": [ 8.5, 0.5, 15.5, 1.0 ] },
+				"west": { "texture": "#cupronickel1", "uv": [ 0.5, 11.5, 2.5, 12.0 ] },
+				"up": { "texture": "#cupronickel1", "uv": [ 0.0, 9.5, 7.0, 11.5 ] },
+				"down": { "texture": "#cupronickel1", "uv": [ 9.0, 2.0, 16.0, 4.0 ] }
+			}
+		},
+		{
+			"name": "ArmAngle",
+			"from": [ 9.0, 0.0, 7.001 ],
+			"to": [ 16.0, 0.5, 8.999 ],
+			"rotationOrigin": [ 9.0, 0.0, 7.0 ],
+			"rotationZ": 45.0,
+			"faces": {
+				"north": { "texture": "#cupronickel1", "uv": [ 3.0, 6.5, 10.0, 7.0 ] },
+				"east": { "texture": "#cupronickel1", "uv": [ 13.5, 4.0, 15.5, 4.5 ], "autoUv": false },
+				"south": { "texture": "#cupronickel1", "uv": [ 1.5, 13.5, 8.5, 14.0 ] },
+				"west": { "texture": "#cupronickel1", "uv": [ 3.0, 9.5, 5.0, 10.0 ], "autoUv": false },
+				"up": { "texture": "#cupronickel1", "uv": [ 9.0, 0.5, 16.0, 2.5 ], "autoUv": false },
+				"down": { "texture": "#cupronickel1", "uv": [ 1.5, 7.0, 8.5, 9.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "TimeBit",
+			"from": [ 2.5, 0.5, 7.5 ],
+			"to": [ 3.5, 1.5, 8.5 ],
+			"rotationOrigin": [ 2.5, 0.5, 8.0 ],
+			"faces": {
+				"north": { "texture": "#rustyglow", "uv": [ 8.5, 3.5, 9.5, 4.5 ] },
+				"east": { "texture": "#rustyglow", "uv": [ 8.0, 2.5, 9.0, 3.5 ] },
+				"south": { "texture": "#rustyglow", "uv": [ 6.5, 8.0, 7.5, 9.0 ] },
+				"west": { "texture": "#rustyglow", "uv": [ 9.0, 2.0, 10.0, 3.0 ] },
+				"up": { "texture": "#rustyglow", "uv": [ 5.5, 3.0, 6.5, 4.0 ] },
+				"down": { "texture": "#rustyglow", "uv": [ 6.5, 4.0, 7.5, 5.0 ] }
+			}
+		},
+		{
+			"name": "TimeBit2",
+			"from": [ 6.5, 0.5, 7.5 ],
+			"to": [ 7.5, 1.5, 8.5 ],
+			"rotationOrigin": [ 6.5, 0.5, 8.0 ],
+			"faces": {
+				"north": { "texture": "#rustyglow", "uv": [ 6.0, 10.0, 7.0, 11.0 ] },
+				"east": { "texture": "#rustyglow", "uv": [ 13.5, 2.5, 14.5, 3.5 ] },
+				"south": { "texture": "#rustyglow", "uv": [ 2.0, 12.0, 3.0, 13.0 ] },
+				"west": { "texture": "#rustyglow", "uv": [ 13.0, 7.5, 14.0, 8.5 ] },
+				"up": { "texture": "#rustyglow", "uv": [ 13.5, 3.5, 14.5, 4.5 ] },
+				"down": { "texture": "#rustyglow", "uv": [ 4.0, 8.5, 5.0, 9.5 ] }
+			}
+		}
+	]}
