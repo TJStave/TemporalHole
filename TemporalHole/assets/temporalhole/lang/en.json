@@ -1,6 +1,6 @@
 {
   "item-temporalhole": "Temporal Hole",
-  "itemdesc-temporalhole": "Ctrl-click while holding items to send them through",
+  "itemdesc-temporalhole": "Ctrl-click on the Temporal Hole with an item, or vice-versa, to send the item through",
   "item-timebit": "Temporal Bit",
   "item-extractorarm": "Extractor Arm",
   "block-temporalextractor-*": "Temporal Extractor",

@@ -6,7 +6,7 @@
         "PurplePi"
     ],
     "description": "Adds the Temporal Hole: capable of holding a theoretically infinite amount of loot, but requires mechanical power for retrieval",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependencies": {
         "game": ""
     }
