@@ -29,9 +29,6 @@ namespace TemporalHole
             if (!__instance[slotId].Empty && !sourceSlot.Empty
                 && (__instance[slotId].Itemstack?.Collectible?.FirstCodePart() == "temporalhole" ^ sourceSlot?.Itemstack?.Collectible?.FirstCodePart() == "temporalhole"))
             {
-                // stop the game from sending a fake packet
-                __result = null;
-
                 ItemSlot holeSlot;
                 ItemSlot sunkSlot;
                 // figure out which slot has the hole in it
@@ -45,6 +42,11 @@ namespace TemporalHole
                     holeSlot = sourceSlot;
                     sunkSlot = __instance[slotId];
                 }
+                if (TemporalHoleModSystem.config.holeLimit > 0
+                    && holeSlot?.Itemstack?.Attributes?.GetTreeAttribute("itemkeys")?.Count >= TemporalHoleModSystem.config.holeLimit) return true;
+
+                // stop the game from sending a fake packet
+                __result = null;
 
                 // tell the server to chuck the item through the hole
                 TemporalHoleModSystem.clientChannel.SendPacket(new TemporalHolePacket()
@@ -58,7 +60,6 @@ namespace TemporalHole
                 // this is to prevent stuttering while the client catches up with the server
                 ItemTemporalHole.AddToHole(holeSlot, sunkSlot);
 
-                TemporalHoleModSystem.api.Logger.Event("finished trigger");
                 return false;
             }
             return true;

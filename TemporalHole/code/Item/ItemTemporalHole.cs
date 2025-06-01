@@ -25,6 +25,11 @@ namespace TemporalHole
             {
                 dsc.AppendLine("");
                 dsc.Append(Lang.Get("temporalhole:holecontents", itemCount));
+                if (TemporalHoleModSystem.config.holeLimit > 0
+                    && inSlot?.Itemstack?.Attributes?.GetTreeAttribute("itemkeys")?.Count >= TemporalHoleModSystem.config.holeLimit)
+                {
+                    dsc.Append(" " + Lang.Get("temporalhole:holefull"));
+                }
             }
         }
 

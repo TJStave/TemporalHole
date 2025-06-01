@@ -74,6 +74,8 @@ namespace TemporalHole
         {
             get
             {
+                // if powerless extraction is enabled
+                if (TemporalHoleModSystem.config?.powerlessExtraction == true) return Math.Max(1, mpc.TrueSpeed);
                 if (automated && mpc.Network != null) return mpc.TrueSpeed;
 
                 return 0;
@@ -251,7 +253,8 @@ namespace TemporalHole
             // Only tick on the server and merely sync to client
             if (CanExtract() && extractSpeed > 0)
             {
-                inputExtractTime += dt * extractSpeed;
+                // modify by speed modifier (the ?? is there if something goes wrong and config is missing)
+                inputExtractTime += dt * extractSpeed * TemporalHoleModSystem.config?.extractionSpeedModifier ?? 1;
 
                 if (inputExtractTime >= MaxExtractTime())
                 {
